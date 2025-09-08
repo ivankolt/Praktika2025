@@ -1,0 +1,2 @@
+smbus2
+transforms3d

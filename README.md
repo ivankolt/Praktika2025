@@ -1,0 +1,1 @@
+Practical training assignments. I created the first software architecture for the robot for myself, also configured the operation of all sensors and configured a docker for each individual module, and also assembled the entire architecture in a docker-compose with the possibility of testing individual modules.

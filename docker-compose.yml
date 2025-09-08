@@ -1,0 +1,100 @@
+version: '3.8'
+
+# Определение пользовательской сети
+networks:
+  ros2-network:
+    driver: bridge
+
+services:
+  # Контейнер ros2-core
+  ros2-core:
+    image: ros:humble
+    container_name: ros2_core
+    networks:
+      - ros2-network
+    environment:
+      - ROS_DOMAIN_ID=42
+    command: >
+      bash -c "ros2 daemon start && tail -f /dev/null"
+    restart: unless-stopped
+
+  # Контейнер для лидара
+  lidar:
+    build:
+      context: ./lidar_container
+    container_name: lidar
+    networks:
+      - ros2-network
+    privileged: true
+    devices:
+      - "/dev/ttyACM0:/dev/ttyACM0"  # Для подключения лидара
+    environment:
+      - ROS_DOMAIN_ID=42  # Общий ROS_DOMAIN_ID для связи контейнеров
+    depends_on:
+      - ros2-core
+
+  # Контейнер для IMU
+  imu:
+    build:
+      context: ./imu_container
+    container_name: imu
+    networks:
+      - ros2-network
+    privileged: true
+    devices:
+      - "/dev/i2c-1:/dev/i2c-1"  # Для подключения IMU
+    environment:
+      - ROS_DOMAIN_ID=42  # Общий ROS_DOMAIN_ID для связи контейнеров
+    depends_on:
+      - ros2-core
+
+  # Контейнер для управления моторами
+  hoverboard:
+    build:
+      context: ./motor_control_container
+    container_name: hoverboard
+    networks:
+      - ros2-network
+    privileged: true
+    devices:
+      - "/dev/serial0:/dev/serial0"  # Для подключения платы управления моторами
+    environment:
+      - ROS_DOMAIN_ID=42  # Общий ROS_DOMAIN_ID для связи контейнеров
+    depends_on:
+      - ros2-core
+      
+  slam:
+    build:
+      context: ./slam_container
+      dockerfile: Dockerfile
+    container_name: slam
+    networks:
+      - ros2-network
+    environment:
+      - ROS_DOMAIN_ID=42
+    depends_on:
+      - ros2-core
+      
+  odometry-node:
+    build:
+      context: ./odometry_container
+      dockerfile: Dockerfile
+    container_name: odometry-node
+    networks:
+      - ros2-network
+    environment:
+      - ROS_DOMAIN_ID=42
+    depends_on:
+      - ros2-core
+      
+  nav2-stack:
+    build:
+      context: ./nav2_container
+      dockerfile: Dockerfile
+    container_name: nav2-stack
+    networks:
+      - ros2-network
+    environment:
+      - ROS_DOMAIN_ID=42
+    depends_on:
+      - ros2-core
