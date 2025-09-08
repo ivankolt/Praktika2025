@@ -1,5 +1,5 @@
 # Базовый multi-arch образ ROS 2 Humble (автоматически подтянет arm64 на Raspberry Pi)
-FROM ros:humble-desktop
+FROM ros:humble-ros-base
 
 # Установка зависимостей
 RUN apt-get update && apt-get install -y \
