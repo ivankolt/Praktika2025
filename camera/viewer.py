@@ -1,28 +1,24 @@
-#!/usr/bin/env python3
 import cv2
+from flask import Flask, Response
 
-def open_camera(dev="/dev/video0", width=1280, height=720, fps=30):
-    cap = cv2.VideoCapture(dev, cv2.CAP_V4L2)
-    if not cap.isOpened():
-        raise RuntimeError(f"Не удалось открыть камеру: {dev}")
+app = Flask(__name__)
+cap = cv2.VideoCapture(0)  # Или '/dev/video0'
 
-    cap.set(cv2.CAP_PROP_FRAME_WIDTH,  width)
-    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
-    cap.set(cv2.CAP_PROP_FPS,         fps)
-
-    fourcc = cv2.VideoWriter_fourcc(*"MJPG")
-    cap.set(cv2.CAP_PROP_FOURCC, fourcc)
-
+def generate_frames():
     while True:
-        ok, frame = cap.read()
-        if not ok:
+        success, frame = cap.read()
+        if not success:
             break
-        cv2.imshow("Camera", frame)
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
+        else:
+            ret, buffer = cv2.imencode('.jpg', frame)
+            frame_bytes = buffer.tobytes()
+            yield (b'--frame\r\n'
+                   b'Content-Type: image/jpeg\r\n\r\n' + frame_bytes + b'\r\n')
 
-    cap.release()
-    cv2.destroyAllWindows()
+@app.route('/video_feed')
+def video_feed():
+    return Response(generate_frames(),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
 
-if __name__ == "__main__":
-    open_camera("/dev/video0", 1280, 720, 30)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
