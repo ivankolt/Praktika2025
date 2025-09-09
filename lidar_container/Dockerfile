@@ -1,11 +1,10 @@
 # Базовый образ с ROS 2 Humble для ARM64
-FROM --platform=linux/arm64 osrf/ros:humble-desktop
+FROM --platform=linux/arm64 osrf/ros:humble-desktop:latest
 
 # Настройка репозиториев ROS 2
 RUN apt-get update && apt-get install -y curl gnupg2 lsb-release \
     && curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | apt-key add - \
     && echo "deb http://packages.ros.org/ros2/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros2-latest.list
-
 # Обновление списка пакетов
 RUN apt-get update
 
@@ -16,6 +15,7 @@ RUN apt-get update && apt-get install -y \
     libpcap-dev \
     ros-humble-sensor-msgs \
     ros-humble-diagnostic-updater \
+    && apt-get upgrade -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Установка Python-зависимостей
