@@ -86,7 +86,24 @@ services:
       - ROS_DOMAIN_ID=42
     depends_on:
       - ros2-core
-      
+  
+  rviz:
+    build:
+      context: ./rviz
+    container_name: rviz
+    networks:
+      - ros2-network
+    volumes:
+      - ./lidar_container/workspace:/workspace
+    ports:
+      - "6080:6080"
+    depends_on:
+      - ros2-core
+      - lidar
+    environment:
+      - ROS_DOMAIN_ID=42
+
+
   nav2-stack:
     build:
       context: ./nav2_container

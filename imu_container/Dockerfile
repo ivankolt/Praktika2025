@@ -1,5 +1,5 @@
 # Базовый образ с ROS 2 Humble
-FROM osrf/ros:humble-desktop
+FROM ros:humble
 
 # Установка зависимостей
 RUN apt-get update && apt-get install -y \

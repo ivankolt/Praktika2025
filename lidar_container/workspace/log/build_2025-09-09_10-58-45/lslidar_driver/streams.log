@@ -1,0 +1,29 @@
+[0.045s] Invoking command in '/workspace/build/lslidar_driver': AMENT_PREFIX_PATH=/workspace/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspace/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/src/Lslidar/lslidar_driver -DCMAKE_INSTALL_PREFIX=/workspace/install/lslidar_driver
+[0.329s] -- The C compiler identification is GNU 11.4.0
+[0.615s] -- The CXX compiler identification is GNU 11.4.0
+[0.650s] -- Detecting C compiler ABI info
+[1.015s] -- Detecting C compiler ABI info - done
+[1.042s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.043s] -- Detecting C compile features
+[1.044s] -- Detecting C compile features - done
+[1.057s] -- Detecting CXX compiler ABI info
+[1.457s] -- Detecting CXX compiler ABI info - done
+[1.484s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.485s] -- Detecting CXX compile features
+[1.489s] -- Detecting CXX compile features - done
+[1.841s] -- Looking for pthread.h
+[2.237s] -- Looking for pthread.h - found
+[2.238s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.625s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.629s] -- Found Threads: TRUE  
+[2.734s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+[2.735s]   Could NOT find Boost (missing: Boost_INCLUDE_DIR thread)
+[2.736s] Call Stack (most recent call first):
+[2.736s]   /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+[2.737s]   /usr/share/cmake-3.22/Modules/FindBoost.cmake:2360 (find_package_handle_standard_args)
+[2.738s]   CMakeLists.txt:19 (find_package)
+[2.739s] 
+[2.739s] [0m
+[2.740s] -- Configuring incomplete, errors occurred!
+[2.741s] See also "/workspace/build/lslidar_driver/CMakeFiles/CMakeOutput.log".
+[2.760s] Invoked command in '/workspace/build/lslidar_driver' returned '1': AMENT_PREFIX_PATH=/workspace/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspace/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/src/Lslidar/lslidar_driver -DCMAKE_INSTALL_PREFIX=/workspace/install/lslidar_driver

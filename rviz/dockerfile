@@ -1,0 +1,25 @@
+FROM ros:humble
+
+# Устанавливаем X11, VNC-сервер и noVNC
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+      ros-humble-rviz2 \
+      x11vnc \
+      xvfb \
+      fluxbox \
+      websockify \
+      novnc && \
+    rm -rf /var/lib/apt/lists/*
+
+# Настройка рабочего каталога
+WORKDIR /workspace
+
+# Создаём пароль для VNC (empty = без пароля)
+RUN mkdir -p /root/.vnc && \
+    x11vnc -storepasswd "" /root/.vnc/passwd
+
+# Скрипт старта
+COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
+ENTRYPOINT ["docker-entrypoint.sh"]

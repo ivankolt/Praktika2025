@@ -1,0 +1,900 @@
+[0.000000] (-) TimerEvent: {}
+[0.001575] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.002736] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/workspace/install/lslidar_msgs')])}
+[0.003801] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.045341] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[0.047680] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/Lslidar/lslidar_msgs', '-DCMAKE_INSTALL_PREFIX=/workspace/install/lslidar_msgs'], 'cwd': '/workspace/build/lslidar_msgs', 'env': OrderedDict([('HOSTNAME', '69cc807f9b7d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/lslidar_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099065] (-) TimerEvent: {}
+[0.199782] (-) TimerEvent: {}
+[0.300547] (-) TimerEvent: {}
+[0.401404] (-) TimerEvent: {}
+[0.502346] (-) TimerEvent: {}
+[0.603357] (-) TimerEvent: {}
+[0.704484] (-) TimerEvent: {}
+[0.805594] (-) TimerEvent: {}
+[0.906597] (-) TimerEvent: {}
+[1.007626] (-) TimerEvent: {}
+[1.092006] (lslidar_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.107831] (-) TimerEvent: {}
+[1.208659] (-) TimerEvent: {}
+[1.309566] (-) TimerEvent: {}
+[1.410573] (-) TimerEvent: {}
+[1.511418] (-) TimerEvent: {}
+[1.612407] (-) TimerEvent: {}
+[1.713177] (-) TimerEvent: {}
+[1.814219] (-) TimerEvent: {}
+[1.915241] (-) TimerEvent: {}
+[2.016241] (-) TimerEvent: {}
+[2.111398] (lslidar_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.116458] (-) TimerEvent: {}
+[2.171172] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.216665] (-) TimerEvent: {}
+[2.317567] (-) TimerEvent: {}
+[2.418425] (-) TimerEvent: {}
+[2.519271] (-) TimerEvent: {}
+[2.584680] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.612148] (lslidar_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.614270] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.619365] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.619966] (-) TimerEvent: {}
+[2.638427] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.720244] (-) TimerEvent: {}
+[2.821266] (-) TimerEvent: {}
+[2.922007] (-) TimerEvent: {}
+[3.022777] (-) TimerEvent: {}
+[3.069139] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.095698] (lslidar_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.096705] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.098517] (lslidar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.122976] (-) TimerEvent: {}
+[3.128269] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.223130] (-) TimerEvent: {}
+[3.324028] (-) TimerEvent: {}
+[3.424983] (-) TimerEvent: {}
+[3.525717] (-) TimerEvent: {}
+[3.626352] (-) TimerEvent: {}
+[3.727057] (-) TimerEvent: {}
+[3.784570] (lslidar_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.827317] (-) TimerEvent: {}
+[3.928131] (-) TimerEvent: {}
+[4.028865] (-) TimerEvent: {}
+[4.129584] (-) TimerEvent: {}
+[4.230289] (-) TimerEvent: {}
+[4.331036] (-) TimerEvent: {}
+[4.406845] (lslidar_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[4.431277] (-) TimerEvent: {}
+[4.532022] (-) TimerEvent: {}
+[4.632771] (-) TimerEvent: {}
+[4.702214] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.732942] (-) TimerEvent: {}
+[4.749142] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.823024] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.833126] (-) TimerEvent: {}
+[4.922917] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.933306] (-) TimerEvent: {}
+[5.033986] (-) TimerEvent: {}
+[5.050808] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.134165] (-) TimerEvent: {}
+[5.234906] (-) TimerEvent: {}
+[5.243015] (lslidar_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.335092] (-) TimerEvent: {}
+[5.435926] (-) TimerEvent: {}
+[5.471000] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.536142] (-) TimerEvent: {}
+[5.546433] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.636333] (-) TimerEvent: {}
+[5.737190] (-) TimerEvent: {}
+[5.837962] (-) TimerEvent: {}
+[5.938644] (-) TimerEvent: {}
+[6.039390] (-) TimerEvent: {}
+[6.140171] (-) TimerEvent: {}
+[6.241351] (-) TimerEvent: {}
+[6.342182] (-) TimerEvent: {}
+[6.442956] (-) TimerEvent: {}
+[6.543940] (-) TimerEvent: {}
+[6.644645] (-) TimerEvent: {}
+[6.745294] (-) TimerEvent: {}
+[6.846066] (-) TimerEvent: {}
+[6.946766] (-) TimerEvent: {}
+[7.047685] (-) TimerEvent: {}
+[7.149159] (-) TimerEvent: {}
+[7.168345] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.249359] (-) TimerEvent: {}
+[7.350077] (-) TimerEvent: {}
+[7.450793] (-) TimerEvent: {}
+[7.551903] (-) TimerEvent: {}
+[7.652675] (-) TimerEvent: {}
+[7.753458] (-) TimerEvent: {}
+[7.854642] (-) TimerEvent: {}
+[7.955386] (-) TimerEvent: {}
+[8.056164] (-) TimerEvent: {}
+[8.157187] (-) TimerEvent: {}
+[8.257907] (-) TimerEvent: {}
+[8.358719] (-) TimerEvent: {}
+[8.459676] (-) TimerEvent: {}
+[8.560375] (-) TimerEvent: {}
+[8.661172] (-) TimerEvent: {}
+[8.740989] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.761350] (-) TimerEvent: {}
+[8.862127] (-) TimerEvent: {}
+[8.963005] (-) TimerEvent: {}
+[9.063890] (-) TimerEvent: {}
+[9.164588] (-) TimerEvent: {}
+[9.265298] (-) TimerEvent: {}
+[9.329436] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.365476] (-) TimerEvent: {}
+[9.411938] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[9.426799] (lslidar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[9.465624] (-) TimerEvent: {}
+[9.523615] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[9.524719] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.525145] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[9.525455] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[9.565856] (-) TimerEvent: {}
+[9.603944] (lslidar_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.666086] (-) TimerEvent: {}
+[9.766858] (-) TimerEvent: {}
+[9.823218] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.841468] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.852576] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.867068] (-) TimerEvent: {}
+[9.903662] (lslidar_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.967237] (-) TimerEvent: {}
+[10.067965] (-) TimerEvent: {}
+[10.124204] (lslidar_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[10.168150] (-) TimerEvent: {}
+[10.178118] (lslidar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/lslidar_msgs\n'}
+[10.221311] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[10.223050] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'build'}
+[10.225603] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/lslidar_msgs', '--', '-j4', '-l4'], 'cwd': '/workspace/build/lslidar_msgs', 'env': OrderedDict([('HOSTNAME', '69cc807f9b7d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/lslidar_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.268334] (-) TimerEvent: {}
+[10.369096] (-) TimerEvent: {}
+[10.470103] (-) TimerEvent: {}
+[10.481915] (lslidar_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.546035] (lslidar_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.570429] (-) TimerEvent: {}
+[10.609674] (lslidar_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_lslidar_msgs\n'}
+[10.673823] (-) TimerEvent: {}
+[10.779163] (-) TimerEvent: {}
+[10.884442] (-) TimerEvent: {}
+[10.985398] (-) TimerEvent: {}
+[11.088739] (-) TimerEvent: {}
+[11.189679] (-) TimerEvent: {}
+[11.290465] (-) TimerEvent: {}
+[11.392383] (-) TimerEvent: {}
+[11.493202] (-) TimerEvent: {}
+[11.594052] (-) TimerEvent: {}
+[11.696688] (-) TimerEvent: {}
+[11.797450] (-) TimerEvent: {}
+[11.898598] (-) TimerEvent: {}
+[12.001280] (-) TimerEvent: {}
+[12.044968] (lslidar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[12.051820] (lslidar_msgs) StdoutLine: {'line': b'creating lslidar_msgs.egg-info\n'}
+[12.054132] (lslidar_msgs) StdoutLine: {'line': b'writing lslidar_msgs.egg-info/PKG-INFO\n'}
+[12.058314] (lslidar_msgs) StdoutLine: {'line': b'writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt\n'}
+[12.061959] (lslidar_msgs) StdoutLine: {'line': b'writing top-level names to lslidar_msgs.egg-info/top_level.txt\n'}
+[12.063218] (lslidar_msgs) StdoutLine: {'line': b"writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[12.079467] (lslidar_msgs) StdoutLine: {'line': b"reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[12.083206] (lslidar_msgs) StdoutLine: {'line': b"writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[12.104796] (-) TimerEvent: {}
+[12.206644] (-) TimerEvent: {}
+[12.298865] (lslidar_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_lslidar_msgs_egg\n'}
+[12.306843] (-) TimerEvent: {}
+[12.414098] (-) TimerEvent: {}
+[12.517129] (-) TimerEvent: {}
+[12.618750] (-) TimerEvent: {}
+[12.719730] (-) TimerEvent: {}
+[12.821597] (-) TimerEvent: {}
+[12.923842] (-) TimerEvent: {}
+[13.024530] (-) TimerEvent: {}
+[13.125193] (-) TimerEvent: {}
+[13.225937] (-) TimerEvent: {}
+[13.327674] (-) TimerEvent: {}
+[13.428464] (-) TimerEvent: {}
+[13.531597] (-) TimerEvent: {}
+[13.634685] (-) TimerEvent: {}
+[13.736785] (-) TimerEvent: {}
+[13.840734] (-) TimerEvent: {}
+[13.848909] (lslidar_msgs) StdoutLine: {'line': b'[  3%] Built target lslidar_msgs__cpp\n'}
+[13.911305] (lslidar_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.943677] (-) TimerEvent: {}
+[13.964382] (lslidar_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.027817] (lslidar_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[14.048815] (-) TimerEvent: {}
+[14.157526] (-) TimerEvent: {}
+[14.259421] (-) TimerEvent: {}
+[14.362692] (-) TimerEvent: {}
+[14.463597] (-) TimerEvent: {}
+[14.564474] (-) TimerEvent: {}
+[14.667695] (-) TimerEvent: {}
+[14.768345] (lslidar_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_difop__functions.c.o\x1b[0m\n'}
+[14.770692] (-) TimerEvent: {}
+[14.874069] (-) TimerEvent: {}
+[14.976214] (-) TimerEvent: {}
+[15.079188] (-) TimerEvent: {}
+[15.181684] (-) TimerEvent: {}
+[15.265398] (lslidar_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_packet__functions.c.o\x1b[0m\n'}
+[15.282729] (-) TimerEvent: {}
+[15.384592] (-) TimerEvent: {}
+[15.488373] (-) TimerEvent: {}
+[15.591976] (-) TimerEvent: {}
+[15.595032] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_point__functions.c.o\x1b[0m\n'}
+[15.693637] (-) TimerEvent: {}
+[15.794912] (-) TimerEvent: {}
+[15.898622] (-) TimerEvent: {}
+[15.959355] (lslidar_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_scan__functions.c.o\x1b[0m\n'}
+[15.999769] (-) TimerEvent: {}
+[16.103680] (-) TimerEvent: {}
+[16.204467] (-) TimerEvent: {}
+[16.305836] (-) TimerEvent: {}
+[16.407903] (-) TimerEvent: {}
+[16.466730] (lslidar_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_sweep__functions.c.o\x1b[0m\n'}
+[16.508290] (-) TimerEvent: {}
+[16.613003] (-) TimerEvent: {}
+[16.689334] (lslidar_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o\x1b[0m\n'}
+[16.713224] (-) TimerEvent: {}
+[16.814273] (-) TimerEvent: {}
+[16.863825] (lslidar_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library liblslidar_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[16.916022] (-) TimerEvent: {}
+[17.023359] (-) TimerEvent: {}
+[17.126811] (-) TimerEvent: {}
+[17.142801] (lslidar_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp.o\x1b[0m\n'}
+[17.174750] (lslidar_msgs) StdoutLine: {'line': b'[ 20%] Built target lslidar_msgs__rosidl_generator_c\n'}
+[17.227037] (-) TimerEvent: {}
+[17.230890] (lslidar_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[17.259479] (lslidar_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_difop__type_support.cpp.o\x1b[0m\n'}
+[17.327223] (-) TimerEvent: {}
+[17.431535] (-) TimerEvent: {}
+[17.534396] (-) TimerEvent: {}
+[17.635461] (-) TimerEvent: {}
+[17.739165] (-) TimerEvent: {}
+[17.841920] (-) TimerEvent: {}
+[17.943338] (-) TimerEvent: {}
+[18.046359] (-) TimerEvent: {}
+[18.151166] (-) TimerEvent: {}
+[18.252200] (-) TimerEvent: {}
+[18.354329] (-) TimerEvent: {}
+[18.458078] (-) TimerEvent: {}
+[18.566350] (-) TimerEvent: {}
+[18.669548] (-) TimerEvent: {}
+[18.776306] (-) TimerEvent: {}
+[18.882235] (-) TimerEvent: {}
+[18.985699] (-) TimerEvent: {}
+[19.090708] (-) TimerEvent: {}
+[19.197550] (-) TimerEvent: {}
+[19.255947] (lslidar_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[19.297739] (-) TimerEvent: {}
+[19.399076] (-) TimerEvent: {}
+[19.500119] (-) TimerEvent: {}
+[19.604747] (-) TimerEvent: {}
+[19.710699] (-) TimerEvent: {}
+[19.811993] (-) TimerEvent: {}
+[19.916250] (-) TimerEvent: {}
+[20.020854] (-) TimerEvent: {}
+[20.122673] (-) TimerEvent: {}
+[20.228690] (-) TimerEvent: {}
+[20.333735] (-) TimerEvent: {}
+[20.378077] (lslidar_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp.o\x1b[0m\n'}
+[20.425722] (lslidar_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[20.434947] (-) TimerEvent: {}
+[20.536818] (-) TimerEvent: {}
+[20.560724] (lslidar_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[20.637878] (-) TimerEvent: {}
+[20.740937] (-) TimerEvent: {}
+[20.844913] (-) TimerEvent: {}
+[20.947936] (-) TimerEvent: {}
+[21.051733] (-) TimerEvent: {}
+[21.154605] (-) TimerEvent: {}
+[21.259805] (-) TimerEvent: {}
+[21.369427] (-) TimerEvent: {}
+[21.446374] (lslidar_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_point__type_support.cpp.o\x1b[0m\n'}
+[21.471437] (-) TimerEvent: {}
+[21.574870] (-) TimerEvent: {}
+[21.676121] (-) TimerEvent: {}
+[21.779321] (-) TimerEvent: {}
+[21.884237] (-) TimerEvent: {}
+[21.986709] (-) TimerEvent: {}
+[22.089811] (-) TimerEvent: {}
+[22.193184] (-) TimerEvent: {}
+[22.296157] (-) TimerEvent: {}
+[22.400206] (-) TimerEvent: {}
+[22.501720] (-) TimerEvent: {}
+[22.605745] (-) TimerEvent: {}
+[22.709768] (-) TimerEvent: {}
+[22.816717] (-) TimerEvent: {}
+[22.919862] (-) TimerEvent: {}
+[23.022851] (-) TimerEvent: {}
+[23.126592] (-) TimerEvent: {}
+[23.229448] (-) TimerEvent: {}
+[23.330664] (lslidar_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[23.331632] (-) TimerEvent: {}
+[23.335966] (lslidar_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[23.432075] (-) TimerEvent: {}
+[23.536233] (-) TimerEvent: {}
+[23.639828] (-) TimerEvent: {}
+[23.699728] (lslidar_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_point__type_support.cpp.o\x1b[0m\n'}
+[23.740074] (-) TimerEvent: {}
+[23.840986] (-) TimerEvent: {}
+[23.944102] (-) TimerEvent: {}
+[24.047451] (-) TimerEvent: {}
+[24.151935] (-) TimerEvent: {}
+[24.218190] (lslidar_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp.o\x1b[0m\n'}
+[24.252144] (-) TimerEvent: {}
+[24.362764] (-) TimerEvent: {}
+[24.465719] (-) TimerEvent: {}
+[24.573663] (-) TimerEvent: {}
+[24.677267] (-) TimerEvent: {}
+[24.782829] (-) TimerEvent: {}
+[24.886696] (-) TimerEvent: {}
+[24.990655] (-) TimerEvent: {}
+[25.093867] (-) TimerEvent: {}
+[25.199734] (-) TimerEvent: {}
+[25.291837] (lslidar_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o\x1b[0m\n'}
+[25.302729] (-) TimerEvent: {}
+[25.407672] (-) TimerEvent: {}
+[25.512695] (-) TimerEvent: {}
+[25.616671] (-) TimerEvent: {}
+[25.718209] (-) TimerEvent: {}
+[25.819271] (-) TimerEvent: {}
+[25.922351] (-) TimerEvent: {}
+[26.026688] (-) TimerEvent: {}
+[26.127688] (-) TimerEvent: {}
+[26.231744] (-) TimerEvent: {}
+[26.337475] (-) TimerEvent: {}
+[26.442689] (-) TimerEvent: {}
+[26.545722] (-) TimerEvent: {}
+[26.647231] (-) TimerEvent: {}
+[26.755746] (-) TimerEvent: {}
+[26.858701] (-) TimerEvent: {}
+[26.963018] (-) TimerEvent: {}
+[27.067734] (-) TimerEvent: {}
+[27.095997] (lslidar_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[27.171714] (-) TimerEvent: {}
+[27.275256] (-) TimerEvent: {}
+[27.382756] (-) TimerEvent: {}
+[27.480179] (lslidar_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[27.484839] (-) TimerEvent: {}
+[27.503836] (lslidar_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[27.547250] (lslidar_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_difop__type_support_c.cpp.o\x1b[0m\n'}
+[27.585716] (-) TimerEvent: {}
+[27.687914] (-) TimerEvent: {}
+[27.775043] (lslidar_msgs) StdoutLine: {'line': b'[ 46%] Built target lslidar_msgs__rosidl_typesupport_cpp\n'}
+[27.788279] (-) TimerEvent: {}
+[27.839657] (lslidar_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_packet__type_support_c.cpp.o\x1b[0m\n'}
+[27.893665] (-) TimerEvent: {}
+[27.998297] (-) TimerEvent: {}
+[28.104879] (-) TimerEvent: {}
+[28.207166] (-) TimerEvent: {}
+[28.309941] (-) TimerEvent: {}
+[28.410886] (-) TimerEvent: {}
+[28.511659] (-) TimerEvent: {}
+[28.612578] (-) TimerEvent: {}
+[30.095106] (lslidar_msgs) StdoutLine: {'line': b'[ 47%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[30.096246] (-) TimerEvent: {}
+[30.177037] (lslidar_msgs) StdoutLine: {'line': b'[ 49%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[30.199717] (-) TimerEvent: {}
+[30.301409] (-) TimerEvent: {}
+[30.402473] (-) TimerEvent: {}
+[30.503313] (-) TimerEvent: {}
+[30.606229] (-) TimerEvent: {}
+[30.707471] (-) TimerEvent: {}
+[30.808866] (-) TimerEvent: {}
+[30.914861] (-) TimerEvent: {}
+[31.017071] (-) TimerEvent: {}
+[31.118228] (-) TimerEvent: {}
+[31.219271] (-) TimerEvent: {}
+[31.322766] (-) TimerEvent: {}
+[31.423821] (-) TimerEvent: {}
+[31.524814] (-) TimerEvent: {}
+[31.626705] (-) TimerEvent: {}
+[31.719481] (lslidar_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_sweep__type_support.cpp.o\x1b[0m\n'}
+[31.730688] (-) TimerEvent: {}
+[31.820356] (lslidar_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_point__type_support_c.cpp.o\x1b[0m\n'}
+[31.823938] (lslidar_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_scan__type_support_c.cpp.o\x1b[0m\n'}
+[31.830857] (-) TimerEvent: {}
+[31.934840] (-) TimerEvent: {}
+[32.040719] (-) TimerEvent: {}
+[32.144107] (-) TimerEvent: {}
+[32.250602] (-) TimerEvent: {}
+[32.352785] (-) TimerEvent: {}
+[32.456831] (-) TimerEvent: {}
+[32.562686] (-) TimerEvent: {}
+[32.665578] (-) TimerEvent: {}
+[32.767141] (-) TimerEvent: {}
+[32.872713] (-) TimerEvent: {}
+[32.974792] (-) TimerEvent: {}
+[33.078276] (-) TimerEvent: {}
+[33.181294] (-) TimerEvent: {}
+[33.284414] (-) TimerEvent: {}
+[33.387116] (-) TimerEvent: {}
+[33.491675] (-) TimerEvent: {}
+[33.592758] (-) TimerEvent: {}
+[33.695692] (-) TimerEvent: {}
+[33.796724] (-) TimerEvent: {}
+[33.898773] (-) TimerEvent: {}
+[34.001776] (-) TimerEvent: {}
+[34.102944] (-) TimerEvent: {}
+[34.203937] (-) TimerEvent: {}
+[34.306032] (-) TimerEvent: {}
+[34.408663] (-) TimerEvent: {}
+[34.509415] (-) TimerEvent: {}
+[34.610161] (-) TimerEvent: {}
+[34.682522] (lslidar_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_difop__type_support.c.o\x1b[0m\n'}
+[34.710379] (-) TimerEvent: {}
+[34.811259] (-) TimerEvent: {}
+[34.912304] (-) TimerEvent: {}
+[35.013253] (-) TimerEvent: {}
+[35.114275] (-) TimerEvent: {}
+[35.215368] (-) TimerEvent: {}
+[35.316358] (-) TimerEvent: {}
+[35.404290] (lslidar_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support_c.cpp.o\x1b[0m\n'}
+[35.419183] (-) TimerEvent: {}
+[35.432225] (lslidar_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[35.483697] (lslidar_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_packet__type_support.c.o\x1b[0m\n'}
+[35.521727] (-) TimerEvent: {}
+[35.576752] (lslidar_msgs) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[35.626271] (-) TimerEvent: {}
+[35.746738] (-) TimerEvent: {}
+[37.052093] (-) TimerEvent: {}
+[37.152938] (-) TimerEvent: {}
+[37.253974] (-) TimerEvent: {}
+[37.355068] (-) TimerEvent: {}
+[37.456114] (-) TimerEvent: {}
+[37.557143] (-) TimerEvent: {}
+[37.658231] (-) TimerEvent: {}
+[37.759322] (-) TimerEvent: {}
+[37.860349] (-) TimerEvent: {}
+[37.961441] (-) TimerEvent: {}
+[38.062447] (-) TimerEvent: {}
+[38.163453] (-) TimerEvent: {}
+[38.264457] (-) TimerEvent: {}
+[38.365445] (-) TimerEvent: {}
+[38.466389] (-) TimerEvent: {}
+[38.567378] (-) TimerEvent: {}
+[38.668436] (-) TimerEvent: {}
+[38.769441] (-) TimerEvent: {}
+[38.870458] (-) TimerEvent: {}
+[38.971485] (-) TimerEvent: {}
+[39.072229] (-) TimerEvent: {}
+[39.172988] (-) TimerEvent: {}
+[39.274133] (-) TimerEvent: {}
+[39.375144] (-) TimerEvent: {}
+[39.383528] (lslidar_msgs) StdoutLine: {'line': b'[ 61%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[39.431032] (lslidar_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_point__type_support.c.o\x1b[0m\n'}
+[39.475314] (-) TimerEvent: {}
+[39.576010] (-) TimerEvent: {}
+[39.676728] (-) TimerEvent: {}
+[39.777696] (-) TimerEvent: {}
+[39.878637] (-) TimerEvent: {}
+[39.979446] (-) TimerEvent: {}
+[40.080581] (-) TimerEvent: {}
+[40.181606] (-) TimerEvent: {}
+[40.282651] (-) TimerEvent: {}
+[40.383682] (-) TimerEvent: {}
+[40.484677] (-) TimerEvent: {}
+[40.585348] (-) TimerEvent: {}
+[40.686099] (-) TimerEvent: {}
+[40.787008] (-) TimerEvent: {}
+[40.887907] (-) TimerEvent: {}
+[40.989129] (-) TimerEvent: {}
+[41.090209] (-) TimerEvent: {}
+[41.191076] (-) TimerEvent: {}
+[41.292070] (-) TimerEvent: {}
+[41.393041] (-) TimerEvent: {}
+[41.494067] (-) TimerEvent: {}
+[41.595114] (-) TimerEvent: {}
+[41.696214] (-) TimerEvent: {}
+[41.797241] (-) TimerEvent: {}
+[41.898252] (-) TimerEvent: {}
+[42.037190] (lslidar_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[42.040197] (-) TimerEvent: {}
+[42.045986] (lslidar_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_scan__type_support.c.o\x1b[0m\n'}
+[42.069387] (lslidar_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c.o\x1b[0m\n'}
+[42.143175] (-) TimerEvent: {}
+[42.253705] (-) TimerEvent: {}
+[42.361760] (-) TimerEvent: {}
+[42.432484] (lslidar_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library liblslidar_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[42.461990] (-) TimerEvent: {}
+[42.495414] (lslidar_msgs) StdoutLine: {'line': b'[ 69%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[42.562208] (-) TimerEvent: {}
+[42.645852] (lslidar_msgs) StdoutLine: {'line': b'[ 69%] Built target lslidar_msgs__rosidl_typesupport_introspection_c\n'}
+[42.662375] (-) TimerEvent: {}
+[42.763052] (-) TimerEvent: {}
+[42.863734] (-) TimerEvent: {}
+[42.964358] (-) TimerEvent: {}
+[43.065042] (-) TimerEvent: {}
+[43.165650] (-) TimerEvent: {}
+[43.266270] (-) TimerEvent: {}
+[43.366921] (-) TimerEvent: {}
+[43.467716] (-) TimerEvent: {}
+[43.568785] (-) TimerEvent: {}
+[43.671079] (-) TimerEvent: {}
+[43.672134] (lslidar_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o\x1b[0m\n'}
+[43.672973] (lslidar_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[43.685043] (lslidar_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[43.694206] (lslidar_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_point__type_support.cpp.o\x1b[0m\n'}
+[43.770658] (-) TimerEvent: {}
+[43.858603] (lslidar_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o\x1b[0m\n'}
+[43.870822] (-) TimerEvent: {}
+[43.971574] (-) TimerEvent: {}
+[44.027278] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[44.071732] (-) TimerEvent: {}
+[44.172465] (-) TimerEvent: {}
+[44.227005] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs__rosidl_typesupport_c\n'}
+[44.272682] (-) TimerEvent: {}
+[44.332574] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs\n'}
+[44.372966] (-) TimerEvent: {}
+[44.436168] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[44.473122] (-) TimerEvent: {}
+[44.573934] (-) TimerEvent: {}
+[44.674732] (-) TimerEvent: {}
+[44.775352] (-) TimerEvent: {}
+[44.876101] (-) TimerEvent: {}
+[44.976883] (-) TimerEvent: {}
+[45.077556] (-) TimerEvent: {}
+[45.178189] (-) TimerEvent: {}
+[45.278865] (-) TimerEvent: {}
+[45.379485] (-) TimerEvent: {}
+[45.480191] (-) TimerEvent: {}
+[45.581193] (-) TimerEvent: {}
+[45.683681] (-) TimerEvent: {}
+[45.784334] (-) TimerEvent: {}
+[45.885064] (-) TimerEvent: {}
+[45.985955] (-) TimerEvent: {}
+[46.087666] (-) TimerEvent: {}
+[46.191065] (-) TimerEvent: {}
+[46.291950] (-) TimerEvent: {}
+[46.392837] (-) TimerEvent: {}
+[46.493683] (-) TimerEvent: {}
+[46.594445] (-) TimerEvent: {}
+[46.695444] (-) TimerEvent: {}
+[46.797200] (-) TimerEvent: {}
+[46.915436] (-) TimerEvent: {}
+[47.016096] (-) TimerEvent: {}
+[47.116761] (-) TimerEvent: {}
+[47.217442] (-) TimerEvent: {}
+[47.318260] (-) TimerEvent: {}
+[47.418986] (-) TimerEvent: {}
+[47.519660] (-) TimerEvent: {}
+[47.620626] (-) TimerEvent: {}
+[47.721260] (-) TimerEvent: {}
+[47.821939] (-) TimerEvent: {}
+[47.922584] (-) TimerEvent: {}
+[48.023465] (-) TimerEvent: {}
+[48.126767] (-) TimerEvent: {}
+[48.227640] (-) TimerEvent: {}
+[48.258340] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] Built target lslidar_msgs__py\n'}
+[48.327929] (-) TimerEvent: {}
+[48.373017] (lslidar_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_packet_s.c.o\x1b[0m\n'}
+[48.377671] (lslidar_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_difop_s.c.o\x1b[0m\n'}
+[48.386569] (lslidar_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_scan_s.c.o\x1b[0m\n'}
+[48.387717] (lslidar_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_point_s.c.o\x1b[0m\n'}
+[48.430929] (-) TimerEvent: {}
+[48.532935] (-) TimerEvent: {}
+[48.640716] (-) TimerEvent: {}
+[48.745255] (-) TimerEvent: {}
+[48.851597] (-) TimerEvent: {}
+[48.953733] (-) TimerEvent: {}
+[49.055678] (-) TimerEvent: {}
+[49.133065] (lslidar_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_sweep_s.c.o\x1b[0m\n'}
+[49.155875] (-) TimerEvent: {}
+[49.256654] (-) TimerEvent: {}
+[49.357318] (-) TimerEvent: {}
+[49.458071] (-) TimerEvent: {}
+[49.558807] (-) TimerEvent: {}
+[49.629251] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[49.659061] (-) TimerEvent: {}
+[49.759863] (-) TimerEvent: {}
+[49.860695] (-) TimerEvent: {}
+[49.861754] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] Built target lslidar_msgs__rosidl_generator_py\n'}
+[49.961000] (-) TimerEvent: {}
+[49.974013] (lslidar_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[49.976961] (lslidar_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[49.978098] (lslidar_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[50.061167] (-) TimerEvent: {}
+[50.162111] (-) TimerEvent: {}
+[50.264703] (-) TimerEvent: {}
+[50.366114] (-) TimerEvent: {}
+[50.467710] (-) TimerEvent: {}
+[50.573070] (-) TimerEvent: {}
+[50.629588] (lslidar_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[50.639711] (lslidar_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[50.674588] (-) TimerEvent: {}
+[50.695048] (lslidar_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[50.775810] (-) TimerEvent: {}
+[50.879939] (-) TimerEvent: {}
+[50.981905] (-) TimerEvent: {}
+[50.997432] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext\n'}
+[51.027208] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[51.065469] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[51.083419] (-) TimerEvent: {}
+[51.142604] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[51.146733] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'install'}
+[51.183662] (-) TimerEvent: {}
+[51.202634] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/lslidar_msgs'], 'cwd': '/workspace/build/lslidar_msgs', 'env': OrderedDict([('HOSTNAME', '69cc807f9b7d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/lslidar_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[51.253814] (lslidar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.258861] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs\n'}
+[51.259532] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[51.260018] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[51.260740] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[51.261428] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h\n'}
+[51.262746] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h\n'}
+[51.263816] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h\n'}
+[51.265431] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.c\n'}
+[51.266608] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h\n'}
+[51.268031] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h\n'}
+[51.269699] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h\n'}
+[51.270834] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h\n'}
+[51.272636] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h\n'}
+[51.273594] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h\n'}
+[51.274907] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h\n'}
+[51.276428] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h\n'}
+[51.277540] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.c\n'}
+[51.278905] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h\n'}
+[51.280472] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.c\n'}
+[51.281698] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.c\n'}
+[51.283454] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h\n'}
+[51.284142] (-) TimerEvent: {}
+[51.285343] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h\n'}
+[51.287980] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.c\n'}
+[51.288404] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h\n'}
+[51.289320] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[51.290805] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h\n'}
+[51.292167] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h\n'}
+[51.293067] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h\n'}
+[51.295481] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h\n'}
+[51.296168] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h\n'}
+[51.298062] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh\n'}
+[51.299217] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv\n'}
+[51.301213] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so\n'}
+[51.304986] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so" to ""\n'}
+[51.306147] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[51.306693] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[51.307428] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[51.308836] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[51.309254] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h\n'}
+[51.310197] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h\n'}
+[51.311669] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h\n'}
+[51.312735] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h\n'}
+[51.314161] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[51.315922] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[51.320260] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[51.321387] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[51.323384] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[51.324329] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp\n'}
+[51.325163] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp\n'}
+[51.326791] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp\n'}
+[51.327354] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp\n'}
+[51.328314] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[51.331340] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp\n'}
+[51.332133] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp\n'}
+[51.333742] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp\n'}
+[51.334389] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp\n'}
+[51.335143] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp\n'}
+[51.336465] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp\n'}
+[51.337849] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp\n'}
+[51.339223] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp\n'}
+[51.340730] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp\n'}
+[51.342047] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp\n'}
+[51.343545] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp\n'}
+[51.344981] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp\n'}
+[51.346374] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp\n'}
+[51.347824] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp\n'}
+[51.349171] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp\n'}
+[51.350768] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp\n'}
+[51.351979] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp\n'}
+[51.353392] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp\n'}
+[51.354763] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp\n'}
+[51.356149] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp\n'}
+[51.357656] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[51.359037] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp\n'}
+[51.360427] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[51.361285] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[51.362172] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[51.362772] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[51.363424] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[51.365147] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[51.366725] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/dds_fastrtps\n'}
+[51.367722] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[51.369307] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[51.370865] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[51.372703] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[51.377356] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[51.378116] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[51.379145] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[51.379759] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[51.380196] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c\n'}
+[51.380845] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[51.381879] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c\n'}
+[51.383428] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h\n'}
+[51.384294] (-) TimerEvent: {}
+[51.385612] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h\n'}
+[51.387150] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.c\n'}
+[51.388030] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c\n'}
+[51.389727] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h\n'}
+[51.391141] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c\n'}
+[51.392672] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h\n'}
+[51.394311] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[51.396336] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[51.399746] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[51.401001] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so\n'}
+[51.403608] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so" to ""\n'}
+[51.404571] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[51.405602] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[51.406104] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[51.406770] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp\n'}
+[51.407592] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[51.408753] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[51.410237] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp\n'}
+[51.411890] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[51.413420] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp\n'}
+[51.414966] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[51.416532] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp\n'}
+[51.418081] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp\n'}
+[51.419655] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp\n'}
+[51.421443] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[51.426697] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[51.427358] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so\n'}
+[51.430651] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[51.431226] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh\n'}
+[51.432048] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv\n'}
+[51.433483] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info\n'}
+[51.434956] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt\n'}
+[51.436413] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO\n'}
+[51.437816] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt\n'}
+[51.439191] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt\n'}
+[51.440835] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs\n'}
+[51.441724] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[51.443533] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[51.445176] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[51.447560] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so\n'}
+[51.448798] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg\n'}
+[51.450191] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c\n'}
+[51.451338] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c\n'}
+[51.452799] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py\n'}
+[51.454189] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py\n'}
+[51.455580] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py\n'}
+[51.456941] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py\n'}
+[51.458373] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py\n'}
+[51.459800] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c\n'}
+[51.461226] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py\n'}
+[51.462439] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c\n'}
+[51.463825] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c\n'}
+[51.465226] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py\n'}
+[51.466409] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[51.468173] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[51.471942] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[51.485756] (-) TimerEvent: {}
+[51.586610] (-) TimerEvent: {}
+[51.676680] (lslidar_msgs) StdoutLine: {'line': b"Listing '/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...\n"}
+[51.678530] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py'...\n"}
+[51.680134] (lslidar_msgs) StdoutLine: {'line': b"Listing '/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...\n"}
+[51.681347] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py'...\n"}
+[51.682617] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py'...\n"}
+[51.683802] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py'...\n"}
+[51.684823] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py'...\n"}
+[51.686174] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py'...\n"}
+[51.687593] (-) TimerEvent: {}
+[51.688963] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py'...\n"}
+[51.709994] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[51.712942] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[51.714681] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[51.717911] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[51.719801] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[51.723154] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[51.724152] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so\n'}
+[51.728786] (lslidar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so" to ""\n'}
+[51.729537] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl\n'}
+[51.730536] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl\n'}
+[51.731792] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl\n'}
+[51.732910] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl\n'}
+[51.734085] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl\n'}
+[51.735255] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg\n'}
+[51.736397] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg\n'}
+[51.737485] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg\n'}
+[51.738696] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg\n'}
+[51.739815] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg\n'}
+[51.741306] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs\n'}
+[51.743086] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs\n'}
+[51.744461] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh\n'}
+[51.745842] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv\n'}
+[51.747123] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh\n'}
+[51.748353] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv\n'}
+[51.749602] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash\n'}
+[51.750772] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh\n'}
+[51.751932] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh\n'}
+[51.753121] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv\n'}
+[51.754278] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/package.dsv\n'}
+[51.755724] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs\n'}
+[51.757416] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake\n'}
+[51.758786] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[51.760326] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[51.761825] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[51.763419] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake\n'}
+[51.764873] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[51.766323] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[51.768021] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[51.769470] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[51.771001] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[51.772547] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[51.773941] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[51.775445] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[51.777190] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[51.778978] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[51.780705] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake\n'}
+[51.782184] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[51.783552] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[51.784832] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[51.786256] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[51.787610] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[51.788136] (-) TimerEvent: {}
+[51.789252] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[51.790673] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[51.791983] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[51.793302] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake\n'}
+[51.794342] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake\n'}
+[51.795725] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/lslidar_msgs/share/lslidar_msgs/package.xml\n'}
+[51.804558] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[51.888403] (-) TimerEvent: {}
+[51.927324] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 0}
+[51.932728] (lslidar_driver) JobStarted: {'identifier': 'lslidar_driver'}
+[51.966976] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'cmake'}
+[51.969552] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/Lslidar/lslidar_driver', '-DCMAKE_INSTALL_PREFIX=/workspace/install/lslidar_driver'], 'cwd': '/workspace/build/lslidar_driver', 'env': OrderedDict([('HOSTNAME', '69cc807f9b7d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/workspace/install/lslidar_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/install/lslidar_msgs:/opt/ros/humble'), ('PWD', '/workspace/build/lslidar_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/lslidar_msgs:/opt/ros/humble')]), 'shell': False}
+[51.988632] (-) TimerEvent: {}
+[52.089296] (-) TimerEvent: {}
+[52.190257] (-) TimerEvent: {}
+[52.261360] (lslidar_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[52.290465] (-) TimerEvent: {}
+[52.391411] (-) TimerEvent: {}
+[52.492536] (-) TimerEvent: {}
+[52.547043] (lslidar_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[52.582015] (lslidar_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[52.592685] (-) TimerEvent: {}
+[52.693381] (-) TimerEvent: {}
+[52.794266] (-) TimerEvent: {}
+[52.895579] (-) TimerEvent: {}
+[52.947285] (lslidar_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[52.974423] (lslidar_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[52.975364] (lslidar_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[52.976950] (lslidar_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[52.989617] (lslidar_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[52.995630] (-) TimerEvent: {}
+[53.096343] (-) TimerEvent: {}
+[53.197205] (-) TimerEvent: {}
+[53.298063] (-) TimerEvent: {}
+[53.389013] (lslidar_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[53.398224] (-) TimerEvent: {}
+[53.416659] (lslidar_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[53.417653] (lslidar_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[53.421417] (lslidar_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[53.498475] (-) TimerEvent: {}
+[53.599616] (-) TimerEvent: {}
+[53.700279] (-) TimerEvent: {}
+[53.773225] (lslidar_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[53.800484] (-) TimerEvent: {}
+[53.901241] (-) TimerEvent: {}
+[54.002123] (-) TimerEvent: {}
+[54.102971] (-) TimerEvent: {}
+[54.169021] (lslidar_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[54.170461] (lslidar_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[54.203170] (-) TimerEvent: {}
+[54.304137] (-) TimerEvent: {}
+[54.404925] (-) TimerEvent: {}
+[54.505717] (-) TimerEvent: {}
+[54.556952] (lslidar_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[54.561231] (lslidar_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[54.605880] (-) TimerEvent: {}
+[54.611763] (lslidar_driver) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):\n'}
+[54.667248] (lslidar_driver) StderrLine: {'line': b'  Could NOT find Boost (missing: Boost_INCLUDE_DIR thread)\n'}
+[54.668077] (lslidar_driver) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[54.668777] (lslidar_driver) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)\n'}
+[54.669413] (lslidar_driver) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindBoost.cmake:2360 (find_package_handle_standard_args)\n'}
+[54.670167] (lslidar_driver) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[54.671034] (lslidar_driver) StderrLine: {'line': b'\n'}
+[54.671725] (lslidar_driver) StderrLine: {'line': b'\x1b[0m\n'}
+[54.672381] (lslidar_driver) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[54.673174] (lslidar_driver) StdoutLine: {'line': b'See also "/workspace/build/lslidar_driver/CMakeFiles/CMakeOutput.log".\n'}
+[54.692286] (lslidar_driver) CommandEnded: {'returncode': 1}
+[54.706097] (-) TimerEvent: {}
+[54.772105] (lslidar_driver) JobEnded: {'identifier': 'lslidar_driver', 'rc': 1}
+[54.784265] (-) EventReactorShutdown: {}

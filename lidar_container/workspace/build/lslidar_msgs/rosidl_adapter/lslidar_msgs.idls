@@ -1,0 +1,5 @@
+/workspace/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarDifop.idl
+/workspace/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarPacket.idl
+/workspace/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarPoint.idl
+/workspace/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarScan.idl
+/workspace/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarSweep.idl
