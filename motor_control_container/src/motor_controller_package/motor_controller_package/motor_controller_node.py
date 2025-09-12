@@ -11,7 +11,7 @@ class HoverboardCommandNode(Node):
         super().__init__('hoverboard_command_node')
 
         # Параметры UART
-        self.serial_port = self.declare_parameter('serial_port', '/dev/serial0').value
+        self.serial_port = self.declare_parameter('serial_port', '/dev/ttyUSB0').value
         self.baud_rate = self.declare_parameter('baud_rate', 115200).value
 
         # Подключение к последовательному порту
@@ -64,15 +64,33 @@ class HoverboardCommandNode(Node):
         """
         linear_x = msg.linear.x  # Линейная скорость (м/с)
         angular_z = msg.angular.z  # Угловая скорость (рад/с)
-
-        # Преобразование в команды для моторов
-        max_speed = 1000  # Максимальное значение для платы (-1000 до 1000)
-        steer = int(angular_z * 100)  # Угловая скорость -> руль (-1000 до 1000)
-        speed = int(linear_x * 100)   # Линейная скорость -> скорость (-1000 до 1000)
-
+        
+        # Параметры дифференциального привода
+        wheel_separation = 0.5  # Расстояние между колесами в метрах
+        max_linear_speed = 1.0  # Максимальная линейная скорость (м/с)
+        max_angular_speed = 1.0  # Максимальная угловая скорость (рад/с)
+        
+        # Ограничиваем входные скорости
+        linear_x = max(-max_linear_speed, min(max_linear_speed, linear_x))
+        angular_z = max(-max_angular_speed, min(max_angular_speed, angular_z))
+        
+        # Вычисляем скорости для каждого колеса (дифференциальный привод)
+        left_speed = linear_x - (angular_z * wheel_separation / 2.0)
+        right_speed = linear_x + (angular_z * wheel_separation / 2.0)
+        
+        # Преобразуем в команды для протокола STM32
+        # steer = разность скоростей (поворот)
+        # speed = средняя скорость (линейное движение)
+        steer = int((right_speed - left_speed) * 1000 / max_linear_speed)
+        speed = int(((left_speed + right_speed) / 2.0) * 1000 / max_linear_speed)
+        
         # Ограничение значений
         steer = max(-1000, min(1000, steer))
         speed = max(-1000, min(1000, speed))
+        
+        self.get_logger().info(f"Input: linear={linear_x:.2f}, angular={angular_z:.2f}")
+        self.get_logger().info(f"Wheels: left={left_speed:.2f}, right={right_speed:.2f}")
+        self.get_logger().info(f"Output: steer={steer}, speed={speed}")
 
         # Отправка данных
         self.send_packet(steer, speed)

@@ -48,7 +48,7 @@ services:
     depends_on:
       - ros2-core
 
-  # Контейнер для управления моторами
+  # Контейнер для управления моторами hoverboard
   hoverboard:
     build:
       context: ./motor_control_container
@@ -57,11 +57,14 @@ services:
       - ros2-network
     privileged: true
     devices:
-      - "/dev/serial0:/dev/serial0"  # Для подключения платы управления моторами
+      - "/dev/ttyUSB0:/dev/ttyUSB0"  # CH340: основной симлинк
+      - "/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0:/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0"  # стабильный путь
+      - "/dev/serial0:/dev/serial0"  # Raspberry Pi UART
     environment:
       - ROS_DOMAIN_ID=42  # Общий ROS_DOMAIN_ID для связи контейнеров
     depends_on:
       - ros2-core
+    restart: unless-stopped
       
   slam:
     build:
